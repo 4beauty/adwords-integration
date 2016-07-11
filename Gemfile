@@ -5,7 +5,9 @@ gem 'jquery-rails'
 gem 'activerecord-session_store'
 
 # Using sqlite by default.
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
 
 gem 'pg'
 gem 'taps'
