@@ -7,6 +7,10 @@ gem 'activerecord-session_store'
 # Using sqlite by default.
 gem 'sqlite3'
 
+gem 'pg'
+gem 'taps'
+
+
 # AdWords API gem.
 gem 'google-adwords-api', '~> 0.18.0'
 
