@@ -9,7 +9,7 @@ AdwordsOnRails::Application.routes.draw do
 
   get "login/prompt" => "login#prompt"
   get "login/callback" => "login#callback"
-  get "login/logout" => "login#logoutx"
+  get "login/logout" => "login#logout"
 
   get "report/index" => "report#index"
   post "report/get" => "report#get"
