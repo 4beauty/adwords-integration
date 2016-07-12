@@ -14,7 +14,7 @@ gem 'taps'
 
 
 # AdWords API gem.
-gem 'google-adwords-api', '~> 0.18.0'
+gem 'google-adwords-api', '~> 0.20.0'
 
 # Gem for OAuth authorization.
 gem 'oauth2'
