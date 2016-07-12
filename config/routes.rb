@@ -1,18 +1,18 @@
 AdwordsOnRails::Application.routes.draw do
-  get "home/index"
+  get "home/index" => "home#index"
 
-  get "campaign/index"
+  get "campaign/index" => "campaign#index"
 
-  get "account/index"
+  get "account/index" => "account#index"
   get "account/input"
-  get "account/select"
+  get "account/select" => "account#select"
 
-  get "login/prompt"
-  get "login/callback"
-  get "login/logout"
+  get "login/prompt" => "login#prompt"
+  get "login/callback" => "login#callback"
+  get "login/logout" => "login#logoutx"
 
-  get "report/index"
-  post "report/get"
+  get "report/index" => "report#index"
+  post "report/get" => "report#get"
 
   root :to => "home#index"
 end
