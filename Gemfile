@@ -19,3 +19,6 @@ gem 'google-adwords-api', '~> 0.20.0'
 
 # Gem for OAuth authorization.
 gem 'oauth2'
+
+gem 'binding_of_caller'
+gem 'better_errors'
